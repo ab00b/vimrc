@@ -288,10 +288,10 @@ Open [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) to see and ma
     
     map <leader>o :BufExplorer<cr>
 
-Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin to quickly find a file or a buffer (`<leader>j` or `<ctrl>f`):
+Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin to quickly find a file or a buffer (`<leader>j` or `<ctrl>m`):
 
     " Quickly find and open a file in the CWD
-    let g:ctrlp_map = '<C-f>'
+    let g:ctrlp_map = '<C-m>'
 
     " Quickly find and open a recently opened file
     map <leader>f :MRU<CR>
@@ -327,7 +327,7 @@ Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin to quickly find a fil
 
 [ctrl-p](https://github.com/ctrlpvim/ctrlp.vim) mappings to easily find and open a file, buffer, etc.:
 
-    let g:ctrlp_map = '<C-f>'
+    let g:ctrlp_map = '<C-m>'
     map <leader>j :CtrlP<cr>
     map <C-b> :CtrlPBuffer<cr>
 
